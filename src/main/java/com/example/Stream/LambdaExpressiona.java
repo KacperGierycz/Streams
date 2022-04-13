@@ -21,6 +21,7 @@ public class LambdaExpressiona {
 	      System.out.println("10 - 5 = " + tester.operate(10, 5, subtraction));
 	      System.out.println("10 x 5 = " + tester.operate(10, 5, multiplication));
 	      System.out.println("10 / 5 = " + tester.operate(10, 5, division));
+	      System.out.println("the Lambda" );
 			
 	      //without parenthesis
 	      GreetingService greetService1 = message ->
