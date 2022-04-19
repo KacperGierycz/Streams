@@ -84,6 +84,8 @@ public class stream {
       count = strings.parallelStream().filter(string -> string.isEmpty()).count();
       System.out.println("Empty Strings: " + count);
    }
+   
+
 	
    private static int getCountEmptyStringUsingJava7(List<String> strings) {
       int count = 0;
